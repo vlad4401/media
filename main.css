@@ -1,0 +1,70 @@
+
+.h1{
+text-align: center;
+}
+
+.box1, .box2, .box3{
+background: #ccc;
+margin-top: 60px;
+margin-left: 25px;
+width: 30%;
+border: 2px solid #000;
+justify-content: center;
+display: inline-block;
+}
+
+
+.h3-1{
+width: 100px;
+background: pink;
+text-align: center;
+float: right;
+border: 2px solid #000;
+}
+.h3-2{
+width: 100px;
+background: red;
+text-align: center;
+float: right;
+border: 2px solid #000;
+}
+
+.h3-3{
+width: 100px;
+background: yellow;
+text-align: center;
+float: right;
+border: 2px solid #000;
+}
+p{
+padding: 35px 15px 15px 15px;
+}
+
+@media screen and (max-width: 991px){
+   .box1{
+    width: 45%;
+  
+   }
+
+     .box2{
+     width: 45%;
+   }
+     .box3{
+     width: 93%;
+  
+   }
+}
+@media screen and (max-width: 767px){
+   .box1{
+    width: auto;
+  
+   }
+
+     .box2{
+     width: auto;
+   }
+     .box3{
+     width: auto;
+  
+   }
+}
